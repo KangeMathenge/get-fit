@@ -13,7 +13,7 @@ function Navbar() {
     },mt:{sm:'32px', xs:'20px'},justifyContent:'none'}}
     px='20px'
     >
-      <Link to="/">
+      <Link to="/get-fit">
         <img src={Logo} alt="app logo" style={{
           width:'48px', height:"48px", margin:"0 20px"}}/>
       </Link>
@@ -23,7 +23,7 @@ function Navbar() {
         fontSize="24px"
         alignItems="flex-end"
       >
-        <Link to="/" style={{
+        <Link to="/get-fit" style={{
           textDecoration:'none', color:'#3A1212', borderBottom:'3px solid #FF2625'
         }}>Home</Link>
         <a href="#exercises" style={

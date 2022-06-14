@@ -4,7 +4,7 @@ import { textTransform } from '@mui/system'
 
 function ExerciseCard({exercise}) {
   return (
-    <Link className='exercise-card' to={`/exercise/${exercise.id}`}>
+    <Link className='exercise-card' to={`/get-fit/exercise/${exercise.id}`}>
     <img src={exercise.gifUrl} alt={exercise.name} loading="lazy" />
     <Stack direction="row">
         <Button sx={{
